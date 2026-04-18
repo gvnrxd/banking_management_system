@@ -1,0 +1,9 @@
+*.exe
+*.o
+*.out
+a.outA
+*
+!*.c
+!*.h
+!Makefile
+!README.md

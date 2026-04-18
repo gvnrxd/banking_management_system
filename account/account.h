@@ -10,7 +10,8 @@ typedef struct {
 } Account;
 
 // Define account functions
-void withdraw(Account *account, double amount);
-void deposit(Account *account, double amount);
+void withdraw(Account *account);
+void deposit(Account *account);
+void initAccount(Account *account);
 
 #endif

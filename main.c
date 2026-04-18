@@ -3,9 +3,6 @@
 
 int main() {
     Account acc;
-
-    withdraw(&acc, 50.00);
-    deposit(&acc, 29.119);
-
+    initAccount(&acc);
     return 0;
 }
